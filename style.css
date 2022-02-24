@@ -1,0 +1,42 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	height: 98vh;
+	align-items: center;
+}
+
+.slider {
+	display: flex;
+	position: relative;
+	align-items: center;
+	width: 500px;
+	padding: 10px;
+}
+
+.slider .slider-content-wrapper {
+	width: 500px;
+	display: flex;
+	overflow: hidden;
+}
+
+.slider-content {
+	position: relative;
+	display: flex;
+	left: 0;
+	transition: .3s ease-in-out;
+}
+
+.slider .left {
+	position: absolute;
+	left: 0;
+}
+
+.slider .right {
+	position: absolute;
+	right: 0;
+}
